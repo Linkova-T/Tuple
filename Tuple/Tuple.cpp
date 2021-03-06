@@ -30,6 +30,5 @@ int main() {
 	auto tuple = std::make_tuple("Alice", 2, "r");
 	auto tuple = std::make_tuple(45, 17, 4.0f);
 	std::cout << tuple << std::endl;
-	system("pause");
-	return EXIT_SUCCESS;
+	return 0;
 }
