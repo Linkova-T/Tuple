@@ -27,8 +27,8 @@ std::ostream& operator << (std::ostream& stream, const std::tuple < Types ... >&
 }
 
 int main() {
-	auto tuple = std::make_tuple(22, 42.0f, "C++","l");
-
+	auto tuple = std::make_tuple("Alice", 2, "r");
+	auto tuple = std::make_tuple(45, 17, 4.0f);
 	std::cout << tuple << std::endl;
 	system("pause");
 	return EXIT_SUCCESS;
