@@ -30,6 +30,6 @@ int main() {
 	auto tuple = std::make_tuple("Alice", 2, "r", 343434);
 	std::cout << "so strange";
 	std::cout << "I want to sleep";
-	std::cout << "When rererrerrerrr";
+	std::cout << "When";
 	return 0;
 }
